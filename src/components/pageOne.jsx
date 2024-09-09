@@ -5,11 +5,11 @@ const PageOne = () => {
   return (
     <>
       {/* container */}
-      <div className="m-2 my-15 sm:flex sm:my-20">
-        <div className="max-w-6xl px-3 py-3">
+      <div className="m-2 my-15 sm:flex sm:my-20 lg:mx-20">
+        <div className="max-w-6xl px-3 py-3 lg:mx-20">
           <img src={dices1} alt="dice-image" />
         </div>
-        <div className="flex flex-col items-center sm:my-32 lg:mx-20 sm:whitespace-nowrap">
+        <div className="flex flex-col items-center sm:my-32 sm:whitespace-nowrap">
           <h1 className="uppercase font-bold text-5xl py-10">Dice Game</h1>
           <Button />
         </div>
