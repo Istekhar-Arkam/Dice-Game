@@ -10,7 +10,9 @@ const PageOne = () => {
           <img src={dices1} alt="dice-image" />
         </div>
         <div className="flex flex-col items-center sm:my-32 sm:whitespace-nowrap">
-          <h1 className="uppercase font-bold text-5xl py-10">Dice Game</h1>
+          <h1 className="uppercase font-bold text-5xl lg:text-6xl py-10 lg:pt-20">
+            Dice Game
+          </h1>
           <Button />
         </div>
       </div>
