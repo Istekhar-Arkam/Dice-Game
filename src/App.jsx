@@ -1,11 +1,15 @@
-import PageOne from "./components/pageOne"
+import { useState } from "react";
 
+import PageTwo from "./components/pageTwo";
 function App() {
- return (
+
+  
+  return (
     <>
-  <PageOne/>
+    <PageTwo/>
+     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
